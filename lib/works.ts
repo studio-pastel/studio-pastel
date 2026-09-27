@@ -19,11 +19,18 @@ export type Work = WorkFrontmatter & {
   contentHtml: string;
 };
 
+function isDraft(slug: string): boolean {
+  const raw = fs.readFileSync(path.join(WORKS_DIR, `${slug}.md`), 'utf8');
+  const { data } = matter(raw);
+  return data.draft === true;
+}
+
 function readSlugs(): string[] {
   return fs
     .readdirSync(WORKS_DIR)
     .filter((f) => f.endsWith('.md') && !f.startsWith('_'))
-    .map((f) => f.replace(/\.md$/, ''));
+    .map((f) => f.replace(/\.md$/, ''))
+    .filter((slug) => !isDraft(slug));
 }
 
 async function readWork(slug: string): Promise<Work> {

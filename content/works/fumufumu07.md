@@ -1,6 +1,7 @@
 ---
 title: "JAGDA HYOGO フムフム #7"
 order: 37
+draft: true
 roles: ["CD", "GD"]
 thumbnail: "/images/works/fumufumu07/works_img_fumufumu07_01.jpg"
 credit: |-

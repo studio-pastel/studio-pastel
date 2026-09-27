@@ -1,6 +1,7 @@
 ---
 title: "えのきょうしつ ミヤパゴス"
 order: 43
+draft: true
 roles: ["CD", "GD", "WD"]
 thumbnail: "/images/works/miyapagos/works_img_miyapagos_01.jpg"
 credit: |-

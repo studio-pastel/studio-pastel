@@ -1,6 +1,6 @@
 ---
 title: "堺サンドイッチキャンパス ブランディング"
-order: 16
+order: 32
 roles: ["ED", "CW"]
 thumbnail: "/images/works/sakai-sandwich-campus/191205_presen_2nd-800x600.png"
 credit: |-

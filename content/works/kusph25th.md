@@ -1,11 +1,10 @@
 ---
 title: "京都大学 大学院医学研究科 社会健康医学系専攻 25周年シンポジウム"
-order: 35
-# TODO: 「Direction」をCDとして近似しています。必要に応じて見直してください。
-roles: ["CD", "GD"]
+order: 4
+roles: ["CD"]
 thumbnail: "/images/works/kusph25th/works_img_kusph25th_01.jpg"
 credit: |-
-  2025／Graphic
+  2025／Direction
   Direction: 髙木大吾 [Design Studio PASTEL Inc.]
   Art Director: 清水彬仁
   Designer: 清水彬仁

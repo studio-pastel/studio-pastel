@@ -1,6 +1,6 @@
 ---
 title: "わたしのからだ"
-order: 11
+order: 17
 roles: ["ED"]
 thumbnail: "/images/works/watashi-no-karada/082476654-800x600.jpg"
 credit: |-

@@ -1,7 +1,7 @@
 ---
 title: "フルカワ建設"
-order: 41
-roles: ["CD", "GD", "WD"]
+order: 39
+roles: ["WD"]
 thumbnail: "/images/works/furukawakensetsu/works_img_furukawakensetsu_web_01.jpg"
 credit: |-
   2019／Web

@@ -1,6 +1,6 @@
 ---
 title: "『美しい未来をつくるひとのための15のはなし』祗園景子編著"
-order: 3
+order: 12
 roles: ["ED"]
 thumbnail: "/images/works/15talks-of-our-good-future/070720537-800x600.jpg"
 credit: |-

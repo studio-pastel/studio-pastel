@@ -1,10 +1,10 @@
 ---
-title: "三十六人衆 ／ 36 Guardians"
-order: 39
-# TODO: 既存の content/works/36guardians.md（アイデンティティ再構築）とは別プロジェクト（ブランドブック）です。年・カテゴリの記載がなかったため未記入です。
-roles: ["CD", "GD", "CW", "WD"]
+title: "三十六人衆 ／ 36 Guardians Booklet"
+order: 8
+roles: ["CW"]
 thumbnail: "/images/works/36guardians-booklet/36guardians_booklet_01.jpg"
 credit: |-
+  2023／冊子
   Art Director: 清水彬仁
   Designer: 清水彬仁
   Copy Writer: 髙木大吾 [Design Studio PASTEL Inc.]

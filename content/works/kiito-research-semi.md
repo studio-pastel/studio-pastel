@@ -1,6 +1,6 @@
 ---
 title: "KIITO 『人口減少時代の豊かな暮らしを神戸でデザインするためのテキストブック』"
-order: 23
+order: 36
 roles: ["ED"]
 thumbnail: "/images/works/kiito-research-semi/070720542-800x600.jpg"
 credit: |-

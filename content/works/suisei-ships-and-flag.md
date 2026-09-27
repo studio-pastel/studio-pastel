@@ -1,6 +1,6 @@
 ---
 title: "社会福祉法人すいせい 20周年記念誌「SHIPS & FLAG」"
-order: 6
+order: 14
 roles: ["ED", "WR"]
 thumbnail: "/images/works/suisei-ships-and-flag/082476720-800x600.jpg"
 credit: |-

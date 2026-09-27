@@ -1,7 +1,7 @@
 ---
 title: "酒縁"
 order: 38
-# TODO: 元ページに年・カテゴリの記載がなかったため未記入です。先頭に「YYYY／カテゴリ」を追加してください。
+draft: true
 roles: ["CD", "GD", "CW"]
 thumbnail: "/images/works/kikuisami-photobook/works_img_kikuisami_photobook_01.jpg"
 credit: |-

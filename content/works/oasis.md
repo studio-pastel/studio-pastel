@@ -1,7 +1,7 @@
 ---
 title: "OASIS"
-order: 33
-roles: ["CD", "PL", "CW", "GD"]
+order: 7
+roles: ["CD", "PL", "CW"]
 thumbnail: "/images/works/oasis/works_img_oasis_01.jpg"
 credit: |-
   2023／VI

@@ -1,8 +1,8 @@
 ---
 title: "MOLZA PAPER EXHIBITION “ex-Pansion”"
-order: 36
+order: 1
 # TODO: 画像が31枚あります。掲載順・枚数を絞るかどうか確認してください。
-roles: ["CD", "GD", "PL", "ED", "CW", "WD"]
+roles: ["PL", "ED", "CW", "WD", "OT"]
 thumbnail: "/images/works/expansion/works_img_expansion_logo.jpg"
 credit: |-
   2026／Exhibition

@@ -1,10 +1,10 @@
 ---
 title: "AWAJI EARTH MUSEUM"
-order: 44
-# TODO: 役割コードは推定です（Brand direction→CD、Concept making/editing/writing→CM,ED,WR、Brand design→GD、Web direction/development→WD）。Program designなど他社クレジットはコード化していません。ご確認ください。
-roles: ["CD", "CM", "ED", "WR", "GD", "WD"]
+order: 2
+roles: ["CM", "ED", "CW"]
 thumbnail: "/images/works/awaji-earth-museum-branding/1-4.jpg"
 credit: |-
+  2026
   Client: 神姫バス
   Architectural Design administration: MuFF
   Construction: 神姫バス不動産

@@ -1,6 +1,6 @@
 ---
 title: "あたらしい働きかた発見BOOK「あたらく」"
-order: 15
+order: 20
 roles: ["ED", "PL", "WR"]
 thumbnail: "/images/works/ataraku/082476678-800x600.jpg"
 credit: |-

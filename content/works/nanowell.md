@@ -1,10 +1,10 @@
 ---
 title: "nanowell®︎"
-order: 34
-roles: ["CD", "GD", "ED", "CW", "WD"]
+order: 11
+roles: ["ED", "CW", "WD"]
 thumbnail: "/images/works/nanowell/works_img_nanowell_01.jpg"
 credit: |-
-  2022／Branding
+  2022／BI
   Art Direction: 清水彬仁
   Design: 清水彬仁
   Edit: 髙木大吾 [Design Studio PASTEL Inc.]

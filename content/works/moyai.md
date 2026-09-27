@@ -1,8 +1,7 @@
 ---
 title: "舫 MOYAI"
-order: 32
-# TODO: 役割コードを確認してください。CWは確実ですが、「Direction」に対応するコードが無いため未設定です
-roles: ["CW"]
+order: 3
+roles: ["CD", "CW"]
 thumbnail: "/images/works/moyai/works_img_moyai_01.jpg"
 credit: |-
   2025／BI, Package

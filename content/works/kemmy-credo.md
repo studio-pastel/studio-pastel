@@ -1,6 +1,6 @@
 ---
 title: "kemmy"
-order: 30
+order: 40
 roles: ["ED", "CD", "GD"]
 thumbnail: "/images/works/kemmy-credo/070720435-800x600.jpg"
 credit: |-

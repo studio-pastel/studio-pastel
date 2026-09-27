@@ -1,6 +1,6 @@
 ---
 title: "神戸市すまいるネット 「防災の日」 新聞広告"
-order: 20
+order: 27
 roles: ["CW"]
 thumbnail: "/images/works/sn_newspaper_ad/thumbnail-800x600.png"
 credit: |-

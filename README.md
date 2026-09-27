@@ -8,20 +8,30 @@ WordPress（wp-theme + wp-export.xml）から、TypeScript + React（Next.js）�
 ## ☀️ 朝起きたらやること（5〜10分）
 
 1. **GitHubリポジトリを作成してpush**
+
+   ⚠️ **必ず Public（公開）で作成してください。** GitHub Pagesは無料プランのPrivateリポジトリでは使えず、
+   Privateで作ると Settings → Pages に Source の設定項目自体が出てきません。
+   （このサイトのコード自体は元々公開サイトのソースなので、公開して問題ありません）
+
    ```bash
    cd "このフォルダ"
    git init -b main   # すでにgit initしてある場合は不要
    git add .
    git commit -m "Initial commit: migrate WordPress site to Next.js"
-   gh repo create studio-pastel-jp --private --source=. --remote=origin
-   # ghコマンドが無ければ、GitHub上で先にリポジトリを作ってから↓
+   gh repo create studio-pastel-jp --public --source=. --remote=origin
+   # ghコマンドが無ければ、GitHub上で先にPublicでリポジトリを作ってから↓
    # git remote add origin git@github.com:<your-account>/studio-pastel-jp.git
    git push -u origin main
    ```
 
+   すでにPrivateで作成してしまった場合は、リポジトリの Settings → General →
+   一番下の Danger Zone → **Change repository visibility** → Public に変更してください。
+
 2. **GitHub Pagesを有効化**
    - リポジトリの Settings → Pages → Source を「GitHub Actions」に設定
    - pushすると自動的に `.github/workflows/deploy.yml` が動いてビルド・公開されます
+   - Publicへの切り替え後にActionsが一度失敗している場合は、Actionsタブから該当のワークフローを開いて
+     「Re-run all jobs」を押せば再実行されます
 
 3. **独自ドメイン（studio-pastel.jp）を設定**
    - `public/CNAME` に `studio-pastel.jp` を入れてあるので、GitHub Pages側の設定は自動で反映されます

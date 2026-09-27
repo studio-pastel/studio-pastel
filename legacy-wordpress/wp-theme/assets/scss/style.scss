@@ -1,0 +1,552 @@
+@charset "UTF-8";
+
+/*
+Theme Name: Design Studio PASTEL Inc.
+Theme URI: studio-pastel.jp
+Description: A website of Design Studio PASTEL Inc.
+Author: Design Studio PASTEL Inc.
+*/
+
+
+@import 'ress';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+/* mixin */
+$fz: 20px;
+$fz_sp: 14px;
+$totalW: 1100px;
+
+$white: #FCFEFF;
+$black: #3E3E3E;
+$blue: #16B3EE;
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+ul,ol {
+	list-style: none;
+}
+
+p {
+	text-align: justify;
+}
+
+a {
+	color: $black;
+	text-decoration: none;
+}
+
+.sp_only {
+	display: none;
+}
+
+html {
+ 	font-size: $fz;
+}
+
+body {
+	background: $white;
+	line-height: 2.0;
+	font-family: 'Montserrat', '中ゴシックBBB', 'Gothic Medium BBB', sans-serif;
+	font-size: 0.8rem;
+	letter-spacing: 0.1em;
+	-webkit-text-size-adjust: 100%;
+	margin: 0;
+	padding: 0;
+	color: $black;
+	overflow-x: hidden;
+}
+
+
+/*---------------------------------------------------------------------------------------
+common
+---------------------------------------------------------------------------------------*/
+header {
+	padding: 50px;
+	display: flex;
+	justify-content: space-between;
+	h1 {
+		width: 202px;
+		height: 30px;
+		img {
+			vertical-align: middle;
+		}
+	}
+	nav {
+		ul {
+			li {
+				display: inline;
+				margin-left: 3em;
+				position: relative;
+				&:after {
+					content: '';
+					position: absolute;
+					width: 100%;
+					height: 3px;
+					top: 9px;
+					left: 0;
+					background-color: transparent;
+				}
+				a {
+					font-size: 1.0rem;
+					font-weight: 400;
+				}
+			}
+		}
+	}
+}
+
+body.page-id-20 nav ul li:nth-child(1):after { background-color: $blue; }
+body.post-type-archive-works nav ul li:nth-child(2):after,
+body.single-works nav ul li:nth-child(2):after, { background-color: $blue; }
+body.page-id-16 nav ul li:nth-child(3):after { background-color: $blue; }
+
+
+footer {
+	text-align: center;
+	padding: 15px 0;
+}
+
+div.wrapper {
+	padding: 200px 0 400px;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+
+.grecaptcha-badge {
+	visibility: hidden;
+}
+
+
+
+/*---------------------------------------------------------------------------------------
+home
+---------------------------------------------------------------------------------------*/
+body.home {
+	article {
+		div.wrapper {
+			width: 100vw;
+			height: calc(100vh - 260px);
+			display: flex;
+			align-items: center;
+			padding: 0;
+			p {
+				width: 100%;
+				text-align: center;
+				font-size: 1.2rem;
+				letter-spacing: 0.16em;
+			}
+		}
+	}
+	footer {
+		text-align: center;
+		padding: 260px 0 30px;
+	}
+}
+
+
+
+/*---------------------------------------------------------------------------------------
+about
+---------------------------------------------------------------------------------------*/
+body.page-id-20 {
+	div.wrapper {
+		& > * {
+			margin: 0 0 50px;
+		}
+		div.desc {
+			p {
+				margin: 0 0 20px;
+			}
+		}
+		dl {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			dt,dd {
+				padding: 10px 0;
+			}
+			dt {
+				flex-basis: 100px;
+			}
+			dd {
+				flex-basis: 1000-100px;
+			}
+		}
+		div.prof {
+			border-top: 1px dotted $black;
+			padding: 140px 0 0;
+			margin: 130px 0 0;
+			display: flex;
+			justify-content: space-between;
+			div.portrait {
+				width: 200px;
+				img {
+					width: 200px;
+					height: 200px;
+				}
+			}
+			div.text {
+				width: 720px;
+			}
+			h3 {
+				font-size: 0.8rem;
+				margin: 0 0 20px;
+				span {
+					font-size: 0.4rem;
+					margin-left: 10px;
+				}
+			}
+			h4,p,ul {
+				font-size: 0.6rem;
+			}
+			p {
+				margin: 0 0 20px;
+			}
+		}
+	}
+}
+
+
+/*---------------------------------------------------------------------------------------
+works
+---------------------------------------------------------------------------------------*/
+body.post-type-archive-works {
+	div.wrapper {
+		width: 100vw;
+		padding: 50px;
+		dl {
+			display: flex;
+			flex-wrap: wrap;
+			width: 750px;
+			margin: 0 0 100px;
+			font-size: 0.6rem;
+			dt {
+				flex-basis: 30px;
+			}
+			dd {
+				width: 250-30px;
+			}
+		}
+		& > div.works_wrap {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			& > div {
+				width: 28%;
+				margin: 0 0 90px;
+				a { 
+					img {
+						width: 100%;
+						height: auto;
+					}
+				}
+				span.ti {
+					font-size: 0.6rem;
+					display: block;
+					line-height: 1.8;
+				}
+				ul {
+					display: inline;
+					li {
+						display: inline;
+						font-size: 0.6rem;
+						&:after {
+							content: ' / ';
+						}
+						&:last-child:after {
+							content: '';
+						}
+					}
+				}
+			}
+			&:after {
+				content: '';
+				display: block;
+				width: 28%;
+			}
+		}
+	}
+}
+
+body.single-works {
+	div.wrapper {
+		h1.ti {
+			margin: 0 0 10px;
+			font-size: 1.2rem;
+		}
+		ul {
+			margin: 0 0 40px;
+			&:before {
+				content: '[ ';
+			}
+			&:after {
+				content: ' ]';
+			}
+			li {
+				display: inline;
+				font-size: 0.6rem;
+				&:after {
+					content: ' / ';
+				}
+				&:last-child:after {
+					content: '';
+				}
+			}
+		}
+		div.co {
+			margin: 0 0 80px;
+			img,p {
+				width: 100%;
+				height: auto;
+				margin: 0 0 40px;
+			}
+		}
+		div.credit {
+		}
+	}
+}
+
+
+/*---------------------------------------------------------------------------------------
+contact
+---------------------------------------------------------------------------------------*/
+body.page-id-16 {
+	div.wrapper {
+		div.contact {
+			dl {
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: space-between;
+				margin: 0 0 80px;
+				dt,dd {
+					padding: 30px 0;
+				}
+				dt {
+					flex-basis: 200px;
+					padding-top: 34px;
+				}
+				dd {
+					flex-basis: 1000-200px;
+					input[type=text],
+					input[type=email],
+					textarea {
+						width: 100%;
+						border: 1px solid $black;
+						padding: 5px 10px;
+						border-radius: 4px;
+						margin-bottom: 10px;
+					}
+					input
+					textarea {
+						height: 240px;
+					}
+				}
+				.wpcf7-not-valid-tip {
+					padding: 10px 0 0;
+					font-size: 0.6rem;
+					color: $blue;
+				}
+			}
+		}
+		.wpcf7-response-output {
+			border: none!important;
+			margin: 0 0 80px;
+			text-align: center;
+			color: $blue;
+		}
+		div.submit {
+			text-align: center;
+			input[type=submit] {
+				background: $black;
+				color: $white;
+				display: inline-block;
+				padding: 14px 40px;
+				text-align: center;
+				border-radius: 4px;
+			}
+		}
+	}
+}
+
+
+
+/*------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
+responsive
+------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------*/
+@media (max-width:$totalW) {
+
+
+	html {
+		font-size: $fz_sp;
+	}
+
+	header {
+		padding: 10%;
+		nav {
+			ul {
+				li {
+					display: block;
+					&:after {
+						top: 13px;
+					}
+				}
+			}
+		}
+	}
+
+	footer {
+		font-size: 0.6rem;
+	}
+
+	div.wrapper {
+		width: 80%;
+		padding: 60px 0 120px;
+	}
+
+
+	/*---------------------------------------------------------------------------------------
+	home
+	---------------------------------------------------------------------------------------*/
+
+	body.home {
+		article {
+			div.wrapper {
+				height: 50vh;
+			}
+		}
+	}
+
+
+	/*---------------------------------------------------------------------------------------
+	about
+	---------------------------------------------------------------------------------------*/
+	body.page-id-20 {
+		div.wrapper {
+			dl {
+				dt {
+					padding: 5px 0 0;
+				}
+				dd {
+					padding: 0 0 10px;
+					flex-basis: CALC(100% - 100px);
+				}
+			}
+			div.prof {
+				padding: 80px 0 0;
+				margin: 70px 0 0;
+				flex-direction: column;
+				div.portrait {
+					width: 100%;
+					height: auto;
+					margin: 0 0 30px;
+					img {
+						width: 100%;
+						height: auto;
+					}
+				}
+				div.text {
+					width: 100%;
+				}
+			}
+		}
+	}
+
+
+	/*---------------------------------------------------------------------------------------
+	works
+	---------------------------------------------------------------------------------------*/
+	body.post-type-archive-works {
+		div.wrapper {
+			width: 80%;
+			padding: 60px 0 120px;
+			dl {
+				width: 100%;
+				dt {
+					flex-basis: 30px;
+				}
+				dd {
+					width: calc( 50% - 30px );
+				}
+			}
+			& > div.works_wrap {
+				& > div {
+					width: 45%;
+					margin: 0 0 90px;
+				}
+				&:after {
+					width: 45%;
+				}
+			}
+		}
+	}
+
+	body.single-works {
+		div.wrapper {
+			div.co {
+				margin: 0 0 40px;
+				img,p {
+					width: 100%;
+					height: auto;
+					margin: 0 0 20px;
+				}
+			}
+			div.credit {
+				font-size: 0.6rem;
+			}
+		}
+	}
+
+
+	/*---------------------------------------------------------------------------------------
+	contact
+	---------------------------------------------------------------------------------------*/
+	body.page-id-16 {
+		div.wrapper {
+			div.contact {
+				dl {
+					display: flex;
+					flex-direction: column;
+					margin: 0 0 80px;
+					dt,dd {
+						flex-basis: 100%;
+					}
+					dt {
+						padding: 0;
+					}
+					dd {
+						padding: 0 0 20px;
+					}
+					.wpcf7-not-valid-tip {
+						padding: 10px 0 0;
+						font-size: 0.6rem;
+						color: $blue;
+					}
+				}
+			}
+			div.submit {
+				text-align: center;
+				input[type=submit] {
+					width: 100%;
+				}
+				.ajax-loader {
+					display: block;
+				}
+			}
+		}
+	}
+
+
+
+/*------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
+responsive
+------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------*/
+}

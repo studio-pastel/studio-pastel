@@ -1,6 +1,6 @@
 ---
 title: "日本女性医学学会メノポーズ週間ポスター"
-order: 29
+order: 30
 roles: ["CD", "PL", "CW", "WR"]
 thumbnail: "/images/works/jmwh-menopause-poster/070720490-800x600.jpg"
 credit: |-

@@ -1,6 +1,6 @@
 ---
 title: "あリノベ賃貸 GUIDE BOOK"
-order: 31
+order: 32
 roles: ["ED"]
 thumbnail: "/images/works/arinodai-guide-book/070720534-800x600.jpg"
 credit: |-

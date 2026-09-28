@@ -1,6 +1,6 @@
 ---
 title: "ASHIYA RESUME ポスター"
-order: 9
+order: 10
 roles: ["PL", "CW", "CM"]
 thumbnail: "/images/works/ashiya-resume-poster/082476708-800x600.jpg"
 credit: |-

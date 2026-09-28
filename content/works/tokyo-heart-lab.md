@@ -1,6 +1,6 @@
 ---
 title: "TOKYO HEART LAB. ブランディング"
-order: 10
+order: 11
 roles: ["CD", "PL", "CW", "CM", "WD"]
 thumbnail: "/images/works/tokyo-heart-lab/works_img_thl_logo_02-800x600.jpg"
 credit: |-

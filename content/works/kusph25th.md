@@ -1,6 +1,6 @@
 ---
 title: "京都大学 大学院医学研究科 社会健康医学系専攻 25周年シンポジウム"
-order: 4
+order: 5
 roles: ["CD"]
 thumbnail: "/images/works/kusph25th/works_img_kusph25th_01.jpg"
 credit: |-

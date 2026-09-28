@@ -1,6 +1,6 @@
 ---
 title: "神戸市こうべソーシャルマガジン「まちのね」"
-order: 35
+order: 36
 roles: ["ED"]
 thumbnail: "/images/works/ksm-machinone/082476688-800x600.jpg"
 credit: |-

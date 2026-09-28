@@ -1,6 +1,6 @@
 ---
 title: "舫 MOYAI"
-order: 3
+order: 4
 roles: ["CD", "CW"]
 thumbnail: "/images/works/moyai/works_img_moyai_01.jpg"
 credit: |-

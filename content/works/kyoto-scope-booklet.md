@@ -1,6 +1,6 @@
 ---
 title: "KYOTO SCOPE  パンフレット"
-order: 25
+order: 26
 roles: ["ED", "CD", "PL", "WR"]
 thumbnail: "/images/works/kyoto-scope-booklet/070720461-800x600.jpg"
 credit: |-

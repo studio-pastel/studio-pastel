@@ -1,6 +1,6 @@
 ---
 title: "いつも yobou いけだ ブランディング"
-order: 16
+order: 17
 roles: ["ED", "CW"]
 thumbnail: "/images/works/itsumo-yobou-ikeda/ikeda_yobou_presen_210629-800x600.png"
 credit: |-

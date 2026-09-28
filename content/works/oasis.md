@@ -1,6 +1,6 @@
 ---
 title: "OASIS"
-order: 7
+order: 8
 roles: ["CD", "PL", "CW"]
 thumbnail: "/images/works/oasis/works_img_oasis_01.jpg"
 credit: |-

@@ -4,11 +4,11 @@ order: 3
 roles: ["ED"]
 thumbnail: "/images/works/kotoba-no-temae/01.jpg"
 credit: |-
-  2026-／graphic
-  planning：山森彩(ユブネ)
-  editing: 髙木大吾(パステル)
-  Art direction & design: ほそかわなつき(Bowl)
-  Title design: 林加津葉(Bowl)
+  2026 / Free magazine
+  Planning : 山森彩（合同会社ユブネ）
+  Editing: 髙木大吾（株式会社デザインスタジオパステル）
+  Art direction & design: ほそかわなつき（Bowl）
+  Title design: 林加津葉（Bowl）
 ---
 
 <!-- TODO: 本文（プロジェクト説明）は未記入です。写真のみ掲載しています。 -->

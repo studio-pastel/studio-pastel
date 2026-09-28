@@ -27,16 +27,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             gtag('config', 'G-MQHM11CJV2');
           `}
         </Script>
-        <Script src="//webfonts.xserver.jp/js/xserver.js" strategy="afterInteractive" />
       </head>
       <body>
         <Header />
         {children}
         <Footer />
-        <Script
-          src="//typesquare.com/3/tsst/script/ja/typesquare.js?60a74a45fb9c45df950d2024e90393a3"
-          strategy="afterInteractive"
-        />
       </body>
     </html>
   );

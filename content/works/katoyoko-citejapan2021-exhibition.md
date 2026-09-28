@@ -1,6 +1,6 @@
 ---
 title: "加藤洋行／CITE JAPAN 2021展示ブース"
-order: 22
+order: 23
 roles: ["ED", "CD", "PL", "CW", "WR", "CM", "WD"]
 thumbnail: "/images/works/katoyoko-citejapan2021-exhibition/works_img_skatoyokocitejapan2021_08-800x600.jpg"
 credit: |-

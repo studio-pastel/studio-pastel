@@ -1,6 +1,6 @@
 ---
 title: "加藤洋行／CITE JAPAN 2023展示ブース"
-order: 7
+order: 8
 roles: ["CD", "PL", "CM"]
 thumbnail: "/images/works/katoyoko-citejapan2023-exhibition/works_img_skatoyokocitejapan2023_08-800x600.jpg"
 credit: |-

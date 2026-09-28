@@ -1,6 +1,6 @@
 ---
 title: "社会福祉法人かがやき神戸"
-order: 34
+order: 35
 roles: ["ED", "PL", "WD"]
 thumbnail: "/images/works/kagayaki-kobe-branding/070720518-800x600.jpg"
 credit: |-

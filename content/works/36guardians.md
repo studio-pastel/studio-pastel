@@ -1,6 +1,6 @@
 ---
 title: "三十六人衆 アイデンティティ再構築"
-order: 6
+order: 7
 roles: ["ED", "PL", "CW", "WR", "CM", "WD"]
 thumbnail: "/images/works/36guardians/copy-1-800x600.png"
 credit: |-

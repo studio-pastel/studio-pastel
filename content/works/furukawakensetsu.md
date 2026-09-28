@@ -1,6 +1,6 @@
 ---
 title: "フルカワ建設"
-order: 40
+order: 41
 roles: ["WD"]
 thumbnail: "/images/works/furukawakensetsu/works_img_furukawakensetsu_web_01.jpg"
 credit: |-

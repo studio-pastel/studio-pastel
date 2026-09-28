@@ -1,6 +1,6 @@
 ---
 title: "西宮市「わかりやすいコンテンツづくり」プログラム"
-order: 39
+order: 40
 roles: ["PL", "OT"]
 thumbnail: "/images/works/nishinomiya-editing-program/200225_checksheet2020-1-800x600.png"
 credit: |-

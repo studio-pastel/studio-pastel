@@ -1,6 +1,6 @@
 ---
 title: "三十六人衆 ／ 36 Guardians Booklet"
-order: 9
+order: 10
 roles: ["CW"]
 thumbnail: "/images/works/36guardians-booklet/36guardians_booklet_01.jpg"
 credit: |-

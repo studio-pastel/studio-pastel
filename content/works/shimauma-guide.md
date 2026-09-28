@@ -1,6 +1,6 @@
 ---
 title: "すまいのしまうまガイド"
-order: 14
+order: 15
 roles: ["ED", "WR"]
 thumbnail: "/images/works/shimauma-guide/082476644-800x600.jpg"
 credit: |-

@@ -1,6 +1,6 @@
 ---
 title: "神戸大学 工学研究科 システム情報学研究科 研究シーズ集"
-order: 19
+order: 20
 roles: ["ED"]
 thumbnail: "/images/works/kobe-univ-research-seeds/082476737-800x600.jpg"
 credit: |-

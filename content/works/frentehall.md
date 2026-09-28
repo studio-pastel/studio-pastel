@@ -1,6 +1,6 @@
 ---
 title: "西宮市フレンテホール"
-order: 42
+order: 43
 roles: ["WD"]
 thumbnail: "/images/works/frentehall/works_img_frentehallweb_01.jpg"
 credit: |-

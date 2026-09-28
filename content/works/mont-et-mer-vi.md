@@ -1,6 +1,6 @@
 ---
 title: "MONT et MER V.I. リニューアル"
-order: 31
+order: 32
 roles: ["CW", "CM"]
 thumbnail: "/images/works/mont-et-mer-vi/montetmer_presen_191010_2-800x600.png"
 credit: |-

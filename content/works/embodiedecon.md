@@ -1,6 +1,6 @@
 ---
 title: "明治学院大学経済学部 犬飼佳吾 共同研究 デジタル身体性経済学の創成"
-order: 24
+order: 25
 roles: ["WD"]
 thumbnail: "/images/works/embodiedecon/works_img_embodiedecon_web_01.jpg"
 credit: |-

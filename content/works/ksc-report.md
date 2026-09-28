@@ -1,6 +1,6 @@
 ---
 title: "神戸ソーシャルキャンパス活動レポート"
-order: 16
+order: 17
 roles: ["ED", "WR"]
 thumbnail: "/images/works/ksc-report/082476659-800x600.jpg"
 credit: |-

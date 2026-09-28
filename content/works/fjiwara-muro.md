@@ -1,6 +1,6 @@
 ---
 title: "藤原室建築設計事務所 WEBサイト"
-order: 20
+order: 21
 roles: ["CW", "WR"]
 thumbnail: "/images/works/fjiwara-muro/copy-800x600.png"
 credit: |-

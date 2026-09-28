@@ -1,6 +1,6 @@
 ---
 title: "KYOTO SCOPE"
-order: 27
+order: 28
 roles: ["ED", "CD", "PL", "CM", "WD"]
 thumbnail: "/images/works/kyoto-scope/191019_TICWK_concept-1-800x600.png"
 credit: |-

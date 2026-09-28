@@ -1,6 +1,6 @@
 ---
 title: "glaminka SAYO"
-order: 23
+order: 24
 roles: ["ED", "CD", "GD", "PL", "CW", "CM", "WD"]
 thumbnail: "/images/works/glaminka-sayo/img04-1-800x600.png"
 credit: |-

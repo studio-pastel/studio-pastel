@@ -1,6 +1,6 @@
 ---
 title: "日本女性医学学会メノポーズ週間冊子"
-order: 29
+order: 30
 roles: ["ED", "CD", "PL", "WR"]
 thumbnail: "/images/works/jmwh-menopause-booklet/070720491-800x600.jpg"
 credit: |-
